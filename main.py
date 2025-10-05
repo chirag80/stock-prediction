@@ -170,7 +170,7 @@ def plot_predictions_over_time(results_df):
         print("No results to plot over time.")
         return
 
-    # Ensure the index is sorted in chronological order for the line plot
+    # Ensure the index is sorted in chronological order for the line plot - test
     results_df = results_df.sort_index()
 
     plt.figure(figsize=(14, 7))
